@@ -1,0 +1,57 @@
+.color-fondo-login{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #6b6969;
+}
+.color-fondo-login .imagen-fondo{
+    opacity: 0.4;
+    background-size: cover;
+    background-position: left center;
+    background-image: url('../img/admin.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+nav.navbar.navbar-default{
+	background: #2d572c;
+	border-color:#2d572c;
+    margin-bottom: 0px;
+    -webkit-box-shadow: 0px 8px 18px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 18px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 18px 0px rgba(0,0,0,0.75);
+}
+.navbar-default .navbar-brand {
+    color: #e4e4e4;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #e5f942;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #e4e4e4;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:   #e5f942;
+    background-color: transparent;
+}
+.contenedor{
+	background: #e4e4e4;
+	-webkit-box-shadow: 0px 8px 18px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 8px 18px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 8px 18px 0px rgba(0,0,0,0.75);
+}
+#ingresarSesion{
+    margin-bottom: 5px;
+}
+hr{
+	border-color: black;
+}
+table{
+	background-color:#fdfdfd;
+}

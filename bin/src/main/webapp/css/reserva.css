@@ -1,0 +1,1250 @@
+/* Somos Fútbol - NAF */
+html,body,div,fieldset,caption,table,
+h1,h2,h3,h6, p,img,ul,li,ol,form,img,address,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+a{
+	outline: none;
+	color: #4970df;
+	text-decoration: underline;
+}
+a:visited{color: #000;}
+
+a:hover{
+	text-decoration: none;
+}
+body{
+	background-color: #ffffff;
+	font-size: 62.5%;
+}
+
+/*Template*/
+#wrapper{background:#000 url(/imagenes/template/wrapper.jpg) center 32px repeat-x; padding-bottom:15px;}
+/*Top*/
+#top {
+	height:20px;
+	margin:0 auto;
+	padding:6px 1px;
+	background-color:#010301;
+}
+#top p{ color:#FFFFFF; margin:0; text-align:right;}
+#top a{ color:#FFFFFF; margin:0 2px;}
+#top a:visited{ color:#CCCCCC;}
+#top a:hover{ color:#b4ff67;}
+/*Fin top*/
+
+/*Header*/
+#header .center{height:125px; position:relative;}
+.center,#publicidad-footer{
+	width: 960px;
+	margin:0 auto;
+}
+#logo{
+	display: block;
+	width: 216px;
+	height: 53px;
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:-32px;
+	left:-1px;
+}
+.slogan{
+	color:#ffffff;
+	font-size:0.5em;
+	text-indent:-9000px;
+	width:154px;
+	height:136px;
+	padding:0;
+	margin:0;
+	background:url(/imagenes/template/logo.png) left top no-repeat
+}
+.slogan strong{
+	font-size:20px;
+	display:block;
+	font-weight: bold;
+}
+/*Fin header*/
+
+
+/*Menu*/
+#menu{
+	margin: 0 0 0 0;
+	width:550px;
+	height: 64px;
+	position:absolute;
+	top:30px;
+	right:230px;
+	padding:0;
+}
+#menu ul,#sub-menu ul{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+}
+#menu ul li{
+	font-size: 1.4em;
+	float: left;
+	position:relative;
+	line-height: 64px;
+	display:inline;
+	margin:0;
+	padding:0;
+	border-right:1px solid #408c13;
+}
+#menu ul li a, #menu ul li :visited{
+	text-decoration: none;
+	color: #ffffff;
+	display:block;
+	padding:0 28px;
+	border-right:1px solid #317c0d;
+}
+#menu ul .current a{ cursor:default;}
+#menu ul li ul {
+	visibility:hidden;
+	position:absolute;
+	left: -1px;
+	top: 45px;
+	z-index:160;
+	min-height:30px;
+	display: none;
+	padding:0;
+}
+#menu table {
+	position:absolute;
+	border-collapse:collapse;
+	z-index:160;
+	left:0px;
+	top:0px;
+	padding: 5px 7px 5px 7px;
+}
+/*#menu ul li:hover a, #menu ul li a:hover,#menu ul .current a {
+	background:#2d5eb0 none;
+}
+#menu ul li:hover ul, #menu ul li a:hover ul {
+	visibility:visible;
+	bottom:0px;
+	left:0px;
+	margin:0;
+	display: block;
+	padding:0;
+}
+#menu ul li:hover ul li, #menu ul li a:hover ul li{
+	font-size: 13px;
+	clear:both;
+	line-height: 17px;
+}
+#menu ul li:hover ul li a, #menu ul li a:hover ul li a {
+	color:#c40a4b;
+	font-weight:normal;
+	background: #ffffff none;
+	display:block;
+	width: 180px;
+	padding:7px 10px 7px 12px;
+	border:3px solid #c40a4b;
+	border-top:1px solid #c40a4b;
+	border-bottom:2px solid #c40a4b;
+	
+}
+#menu ul li:hover ul li ul, #menu ul li a:hover ul li a ul {
+	visibility:hidden;
+	position:absolute;
+}
+#menu ul li:hover ul li a:hover, #menu ul li a:hover ul li a:hover {
+	background-color: #c40a4b;
+	color:#fff;
+}*/
+.boton-1{ background:url(/imagenes/template/menu.png) left top no-repeat;}
+.boton-2{ background:url(/imagenes/template/menu.png) -40px top no-repeat;}
+.boton-3{ background:url(/imagenes/template/menu.png) right top no-repeat;}
+#menu ul li.boton-3,#menu ul li.boton-3 a{ border: none;}
+#menu ul li.boton-1:hover a, #menu ul li.boton-1 a:hover {
+	background:url(/imagenes/template/menu.png) left bottom no-repeat;
+}
+#menu ul li.boton-2:hover a, #menu ul li.boton-2 a:hover {
+	background:url(/imagenes/template/menu.png) -40px bottom no-repeat;
+}
+#menu ul li.boton-3:hover a, #menu ul li.boton-3 a:hover {
+	background:url(/imagenes/portada/fondo_conv.png) right top no-repeat;
+}
+
+/*Sub-menu*/
+#sub-menu{
+	height:60px;
+}
+#sub-menu li{
+	font-size:1.4em;
+	line-height:38px;
+	text-align:center;
+	display: inline;
+	float: left;
+	margin:0;
+	padding-right:4px;
+}
+#sub-menu li a,#sub-menu li a:visited{
+	background-color: #ffffff;
+	height: 38px;
+	width: 129px;
+	display:block;
+	color: #ffffff;
+	text-decoration: none;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+}
+#sub-menu li a:hover{
+	background-color: #3c7f0c;
+	color:#FFFFFF;
+	border-left:1px solid #a3c38d;
+	border-right:1px solid #a3c38d;
+}
+/*Fin sub-menu*/
+
+/*Fin Menu*/
+#footer{
+	background:#ffffff;
+}
+#footer .center{
+	background: url(/imagenes/template/logo-footer.png) 10px 16px no-repeat;
+	width:865px;
+	padding: 24px 0 0 95px;
+	height:70px;
+	position:relative;
+	height:80px;
+	margin:0 auto;
+}
+#footer address{
+	font-size: 1.2em;
+	color:#fff;
+	line-height:18px;
+}
+#footer p{ position:absolute; right:0; top:26px; font-size:1.2em; color:#FFFFFF;}
+#footer p a{ margin-left:1px;}
+#aeurus {
+    padding: 10px;
+	text-align:right;
+}
+/**/
+#navigation{
+    padding: 10px 15px;
+	margin:0 -25px 15px;
+	color:#ffffff;
+	background-color:#ffffff;
+}
+
+#navigation span{ color:#ffffff;}
+#navigation a{ color:#7bb7fc;}
+#navigation a:visited{ color:#ffffff;}
+
+/*Fin template*/
+
+/*Portada*/
+.bloque-content{
+	height: 200px;
+	width: 948px;
+	margin:0 auto 15px;
+}
+.bloque-content h2, .bloque-content h3,.servicios h2,.servicios h3{
+	font-size: 2.2em;
+	color: #FFFFFF;
+	padding:0;
+	line-height:22px;
+}
+.bloque-content p,.servicios p{ color:#FFFFFF; margin-bottom:10px;}
+.bloque-content .bloque-1,.bloque-content .bloque-2,.bloque-content .bloque-3,.bloque-content .bloque-4{float:left;}
+.bloque-1,.bloque-2,.bloque-3,.bloque-4{
+	padding: 15px 47px 0 17px;
+	display:inline;
+	height:185px;
+	width:173px;
+}
+.bloque-5{
+/* 	background:lime;   */     
+	height:180px;
+	width:200px;
+	margin-bottom:5px;
+	
+}
+.bloque-6{
+	/* background:green;  */      
+	height:360px;
+	width:200px;
+	margin-bottom:5px;
+}
+.principal-ligas{
+	float:left; 
+	width:720px; 
+	height:100px; 
+	margin: 0 0 0px -733px;
+}
+.banner-principal{
+	width:946px; 
+	margin:auto; 
+	height:80px; 
+	margin-bottom:4px;
+}
+.banner-servicios{
+	margin-bottom:5px;
+}
+.bloque-1{background: url(/imagenes/portada/bloque.jpg) left top no-repeat;}
+.bloque-2{background: url(/imagenes/portada/bloque.jpg) -236px top no-repeat; width:172px;}
+.bloque-3{background: url(/imagenes/portada/bloque.jpg) -472px top no-repeat;}
+.bloque-4{background: url(/imagenes/portada/bloque.jpg) right top no-repeat;}
+.bloque-1 h2{ text-shadow: 2px 2px 0px #43681a;}
+.bloque-2 h2{ text-shadow: 2px 2px 0px #0d2545;}
+.bloque-3 h3{ text-shadow: 2px 2px 0px #af681a;}
+.bloque-4 h3{ text-shadow: 2px 2px 0px #920b0b;}
+.bloque-content .ver-mas,.servicios .ver-mas{
+	font-size: 1.2em;
+	line-height: 33px;
+	text-align:center;
+	font-weight:bold;
+}
+.bloque-content .ver-mas a,.bloque-content .ver-mas a:visited,.servicios .ver-mas a,.servicios .ver-mas a:visited{
+	background: url(/imagenes/portada/ver-mas.png) left top no-repeat;
+	display: block;
+	height: 33px;
+	width: 106px;
+	color: #434343;
+	text-decoration: none;
+}
+.bloque-content .ver-mas a:hover,.servicios .ver-mas a:hover{
+	background: url(/imagenes/portada/ver-mas.png) left -33px no-repeat;
+}
+#noticias{ width:480px; float:left;}
+#publicidad{
+	width: 416px;
+	float:right;
+	margin-right:-10px;
+}
+#publicidad h3{ font-size:2.4em; color:#434343}
+#publicidad-footer{ border-top:1px solid #cacaca; width:930px; padding: 10px 0;}
+#publicidad-footer .contenedor-sponsor{display:block; float:left; margin: 0 2px 4px; border: 1px solid #aaa; padding: 5px 1px 0 0;}
+#publicidad-footer img{ margin:0 2px 4px; }
+
+/*Contenido*/
+#wrapper-center{ background:url(/imagenes/template/wrapper-y.png) center top repeat-y;}
+#wrapper-bottom{
+	background: url('../img/futbolito.jpg') center bottom no-repeat;
+	padding-bottom:1px;
+}
+.borrar{ clear:both;}
+#wrapper-bottom .center{ width:910px; padding:0 25px 30px;
+	min-height:356px; /*580px;*/
+	height:580px;
+	height:auto!important;
+}
+.content{
+	padding:15px 30px 30px;
+}
+.content-bottom{
+	background: url(/imagenes/sitio/content-bottom.png) center bottom no-repeat;
+	width:894px;
+	padding:1px 39px 40px;
+	margin:0 auto;
+	position:relative;	
+}
+.relativo{ position:relative;}
+#content-left{ float:left; width:664px; /* padding-top:10px; */ padding-top:105px; position:relative;}
+
+/* bloque noticias, servicios y documentos */
+.listados{
+	position: relative;
+	padding: 5px 10px 15px 0;
+}
+.listados img{ float:left; border:1px solid #d9d9d9;}
+.listados .text-13{ font-weight:bold;}
+.listados .resumen{
+	margin-left:115px;
+	min-height:105px;
+	height:auto!important;
+	height:105px;
+}
+.listados p{ margin-bottom:10px;}
+.detalle-right,.multimedia  {
+    float: right;
+    width: 410px;
+	margin:0 0 15px 20px;
+	position:relative;
+}
+.detalle-right{ width:378px;}
+.contactenos-servicio{
+	background: url(/imagenes/sitio/contactenos.png) left top no-repeat;
+	padding:15px 10px 6px 85px;
+	margin:10px 0;
+}
+.contactenos-servicio h2{ color:#434343; font-size:1.8em; margin-bottom:6px;}
+.contactenos-servicio p{ font-size:1.2em;}
+.servicios{
+	/* width: 238px; */
+	width: 200px;
+	float:right;
+	position:relative;
+	margin-right:-15px;
+}
+.servicios .bloque-1,.servicios .bloque-2,.servicios .bloque-3,.servicios .bloque-4{ display:block; width:auto;}
+
+.servicios .bloque-1{ border-top:2px solid #c1c1c1;}
+#contactar-servicio{ width:330px;}
+#contactar-servicio{ padding:5px 0 1px 10px;}
+#contactar-servicio .formulario textarea{ width:230px;}
+
+/*Paginaci�n*/
+#paginacion{
+	font-size: 1.3em;
+	text-align: right;
+	height:20px;
+	padding:14px 1px 12px;
+}
+#paginacion .ant,#paginacion .sig{
+	padding:4px 1px 5px;
+	margin:0 4px;
+}
+#paginacion .pagina{
+	background: url(/imagenes/sitio/paginacion.png) center top no-repeat;
+	padding:5px 0 6px;
+	margin-right:2px;
+}
+#paginacion .current{
+	color:#434343;
+	font-weight:bold;
+	background: url(/imagenes/sitio/paginacion.png) center -27px no-repeat;
+	padding:6px 9px 6px;
+	margin-right:2px;
+}
+#paginacion .pagina a{
+	text-decoration: none;
+	padding:4px 9px 5px;
+}
+#paginacion .pagina a:hover{
+	text-decoration: underline;
+}
+
+
+
+/*contacto*/
+label,input,textarea{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #434343;
+	font-size:13px;
+}
+#contenido-izq{ width:440px; float:left}
+#contenido-adicional{
+	float:right;
+	width:250px;
+	position:relative;
+	padding:15px 25px;
+	border: 1px solid #e2e2e2;
+	background-color:#f2f2f2;
+}
+#contenido-adicional h2{
+	font-size:2.2em;
+	margin-bottom:10px;
+}
+#contenido-adicional p{ margin-bottom:10px;}
+#contenido-adicional p span{ color:#666666;}
+#contenido-adicional .text-11{ font-size:11px; float:none;}
+#contenido-adicional .direccion, #contenido-adicional .fono, #contenido-adicional .email{
+	padding:2px 0;
+}
+#contenido-adicional .direccion span, #contenido-adicional .fono span, #contenido-adicional .email span{
+	text-indent:-9000px;
+	display: block;
+	float: left;
+	width: 25px;
+}
+
+#contenido-adicional .direccion span{
+	background: url(/imagenes/sitio/contactenos.png) left top no-repeat;
+}
+#contenido-adicional .fono span{background: url(/imagenes/sitio/contactenos.png) left -66px no-repeat;}
+#contenido-adicional .email span{background: url(/imagenes/sitio/contactenos.png) left -104px no-repeat;}
+
+
+.formulario{
+	margin: 15px 0;
+}
+.formulario label{
+	line-height: 28px;
+	display: block;
+	text-align: right;
+	width: 85px;
+	height: 28px;
+	float: left;
+	padding-right: 5px;
+}
+.formulario .input{
+	width: 230px;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 6px;
+	border: 1px solid #e3e3e3;
+	padding:0 4px;
+}
+.formulario textarea{	
+	width: 340px;
+	margin:2px 0 4px;
+	padding: 4px;
+	border:1px solid #e3e3e3;
+}
+.boton-enviar{
+	font-size:1.2em;
+	font-weight:bold;
+	color:#fff;
+	width: 131px;
+	height:36px;
+	float:right;
+	padding:1px 0 2px;
+	margin:0;
+	border:none;
+	background-color:#3c7f0c;
+	cursor:pointer;
+}
+.boton-enviar:hover{
+	background-color:#055401;
+}
+.caja-contacto{
+	margin: 10px 0;
+	margin-left: 92px;
+	clear:left;
+}
+.caja-contacto p{
+	padding-bottom: 10px;
+	font-size: 1.1em;
+	color:#999999;
+}
+
+/*Album*/
+.albunes{
+	float: left;
+	width: 202px;
+	padding-right:22px;
+	height:210px;
+}
+.albunes p{ margin-bottom:3px; padding:0 2px;}
+.albunes .borde{ border:2px solid #dbdbdb;}
+
+/*Horario*/
+.horario{ padding:20px 0;}
+.horario dt{ font-weight:bold; float:left; padding:0 7px 0 10px;}
+.horario h2{
+	font-size: 1.8em;
+	color: #434343;
+}
+.bloque-fondo,#contenido-adicional.bloque-fondo{
+	background-color: #ececec;
+	border: 1px solid #dbdbdb;
+	padding:10px 10px 1px;
+	float:none;
+	width:auto;
+}
+.bloque-fondo .input,.bloque-fondo textarea{ border: 1px solid #c4c4c4;}
+.bloque-fondo textarea{ width:500px;}
+.bloque-fondo .caja-contacto p{ color:#434343;}
+
+/*Ligas*/
+.ligas{
+	float: left;
+	width: 205px;
+	height:200px;
+	padding-right:20px;
+}
+.ligas img{ border:2px solid #dfdfdf; margin-bottom:4px;}
+.ligas p{ padding-left:4px;}
+
+/*Textos*/
+
+h1,h2, h3, h4,.text-h2,.text-18{
+	font-family: 'Terminal Dosis', sans-serif;
+	color:#2c9103;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+h1,h2{
+	font-size: 3.0em;
+	line-height:30px;
+	
+}
+
+
+h3,.text-h2,.text-18{
+	font-size: 2.4em;
+	padding-top:4px;
+}
+h4, li, p, th, td,dt,dd{
+	font-size: 1.3em;
+	color: #434343;
+}
+p,dd{
+	line-height:17px;
+	margin-bottom:15px;
+}
+li,dt{ margin-bottom:10px;}
+ul{
+	list-style: none;
+}
+img{
+	border: 0;
+}
+table{
+	margin: 0;
+	border: 0;
+	border-collapse: collapse;
+}
+.right{
+	display: block;
+	float: right;
+}
+.borrar{clear: both;}
+.listados .text-fecha{
+	display: block;
+    font-size: 1.1em;
+    color: #828282;
+	margin:-8px 0 6px;
+}
+.recuadro-info .text-fecha{
+	padding-top: 5px;
+}
+.text-11{ font-size:1.1em; padding-top:5px;}
+.text-13{font-size:1.3em;}
+.text-14,dt{font-size:1.4em;}
+.text-15{font-size:1.5em; color:#222943;}
+.text-align-right,.editable .descargas .text-align-right,.listado-tabla .text-align-right{ text-align:right;}
+.text-align-center,#publicidad-footer{ text-align:center;}
+
+/*Mapa del sitio*/
+.mapa-sitio{ padding:4px 0 1px 20px;}
+.mapa-sitio h3,.text-tit{
+	font-size:1.4em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.mapa-sitio p{ font-size:1.3em; margin:0; padding: 5px 0;}
+.mapa-sitio li{ margin-bottom:5px;}
+
+/* contenido editable */
+.editable img{ border:1px solid #E3E3E3;}
+img.editable{ border:2px solid #dbdbdb; margin-bottom:15px;}
+.editable ul {
+	list-style-image: url(/imagenes/sitio/vineta.gif);
+	margin: 0 0 10px 30px;
+	color: #424242;
+}
+.editable ol {
+	margin: 10px 0 10px 20px;
+	color: #424242;
+}
+.editable li {
+	margin-bottom:10px;
+}
+.editable ol ul,.editable ul ol {
+	margin: 10px 15px;
+}
+.editable  li li {
+	font-size: 1.0em;
+}
+.editable ul li, .editable ol li {
+	margin-bottom: 15px;
+}
+.editable li,.editable p {
+	line-height:18px;
+}
+.editable table {
+	width: 100%;
+	margin: 20px 0;
+}
+.editable .noticia-right ul{
+	list-style-image: none;
+	list-style-type: none;
+}
+.tr-color{ background-color:#eeeeee;}
+.editable table th, .editable table td {
+	text-align: left;
+	vertical-align:top;
+	line-height:17px;
+}
+.editable table td {
+	padding: 10px 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.editable table tr:hover td {
+	background: #f4f4f4;
+}
+.editable table td a:visited {
+	color: #660099;
+}
+.editable table th {
+	padding: 5px 15px;
+	font-size: 1.4em;
+	color: #448d2e;
+	font-weight:bold;
+	border-bottom:1px solid #d7d7d7;
+	background-color:#e6e6e6;
+}
+.editable td p{ font-size:1.0px;}
+
+/*Accesibilidad*/
+.explorer,.firefox,.opera,.safari{
+	padding:1px 0 7px 55px;
+	margin-left:15px;
+}
+.firefox{
+	background:url(/imagenes/accesibilidad/firefox.jpg) 2px top no-repeat;
+}
+.opera{background:url(/imagenes/accesibilidad/opera.jpg) 2px top no-repeat;}
+.safari{background:url(/imagenes/accesibilidad/safari.jpg) 2px 2px no-repeat;}
+.explorer {
+    background: url(/imagenes/accesibilidad/explorer.jpg) no-repeat scroll left 0px transparent;
+}
+.text-sub-titulo{
+	font-weight:bold;
+	margin-bottom:1px;
+}
+
+/*LIGA*/
+#liga{
+	background: url(/imagenes/sitio/header-liga.jpg) left top no-repeat;
+	height: 112px;
+	margin:-15px -25px 0;
+	padding:0 25px;
+	position:relative;
+}
+#liga .campeones{
+	font-size:1.5em;
+	line-height:60px;
+	text-indent:55px;
+	text-shadow:2px 0 2px #788f09;
+	background-image: url(/imagenes/sitio/campeones.png);
+	height: 67px;
+	width: 179px;
+	position:absolute;
+	top:20px;
+	right:20px;
+}
+#liga .campeones a,#liga .campeones a:visited{
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration: none;
+	background: url(/imagenes/sitio/campeones.png) left top no-repeat;
+	padding-top:5px;
+	display: block;
+	width: 179px;
+	height: 62px;
+}
+#liga .campeones a:hover{
+	background: url(/imagenes/sitio/campeones.png) left bottom no-repeat;
+}
+#liga p{
+	display:inline;
+	line-height:110px;
+	font-family: 'Terminal Dosis', sans-serif;
+	font-size:3.0em;
+}
+#liga p,#liga a{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+#liga img{ vertical-align:middle; margin-right:20px;}
+
+/*Menu Liga*/
+#menu-liga {
+	height: 47px;
+	background: url(/imagenes/sitio/menu-liga.png) left top no-repeat;
+	margin:0 -25px 0;
+}
+#menu-liga ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#menu-liga li{
+	float: left;
+	display:inline;
+}
+#menu-liga li a,#menu-liga li a:visited{
+	color: #434343;
+	text-decoration: none;
+	display:block;
+	line-height:47px;
+	padding:0 22px 0 23px;
+}
+#menu-liga li a:hover{background: url(/imagenes/sitio/menu-liga.png) -5px -47px no-repeat;}
+.listado-tabla{ padding-bottom:6px; border-bottom:8px solid #dfdfdf; margin-bottom:20px;}
+.listado-tabla table{ width:100%;}
+.listado-tabla caption{
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #448d2e;
+	line-height:27px;
+	background-color: #e6e6e6;
+	border: 1px solid #d7d7d7;
+	padding:4px 10px;
+	text-align:left;	
+}
+.listado-tabla th,.listado-tabla tfoot td{
+	font-size:1.1em;
+	font-weight:normal;
+	background-color: #f5f5f5;
+	border-top: 1px solid #d7d7d7;
+	border-bottom:1px solid #d7d7d7;
+	text-align:left;
+	color:#8f8f8f;
+}
+.listado-tabla th,.listado-tabla td{ padding:5px 10px; vertical-align:top;}
+.listado-tabla .borde-bl{ border-left:1px solid #d7d7d7;}
+.listado-tabla .borde-br{ border-right:1px solid #d7d7d7;}
+.listado-tabla tr.borde-bb td{ border-bottom:1px solid #e5e5e5;}
+.listado-tabla.personales tr:hover td{ background-color:#fff1cc;}
+.listado-tabla .green{color: #448d2e; font-weight:bold;width: 30px;}
+.listado-tabla .gris{ color:#8f8f8f;}
+.listado-tabla #text-align-right{text-align:right;}
+.listado-tabla img{ border:1px solid #eaeaea;}
+.listado-tabla.goleadores td{ vertical-align:middle;}
+.listado-tabla.ficha td{ font-size:11px;}
+.listado-tabla.ficha strong{ font-size:13px; line-height:18px; display:block; margin-bottom:-10px;}
+.listado-tabla tfoot td { color:#434343; font-size:1.3em;}
+.filtrar,#filtrar{ float:right; width:330px; position:relative; height:27px;}
+.filtrar label,#filtrar label{ float:left;font-size:11px;color:#434343;}
+.filtrar select,#filtrar select{
+	width:110px;
+	background-color: #FFFFFF;
+	border: 1px solid #dcdcdc;
+	font-size:11px;
+	color:#434343;
+	padding:5px 1px 4px 4px;
+}
+.ver-todos{
+	font-size:0.8em;
+	line-height: 27px;
+	text-align:center;
+	background: url(/imagenes/sitio/ver-mas.png) left top no-repeat;
+	width: 175px;
+	height: 27px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.ver-todos a,.ver-todos a:visited{
+	display:block;
+	width: 175px;
+	height: 27px;
+	color: #66360e;
+	text-decoration: none;	
+}
+.ver-todos a:hover{background: url(/imagenes/sitio/ver-mas.png) left -27px no-repeat;}
+.coll{ width: 49%; float: left;}
+/**/
+.text-tit{ font-size:1.8em; color:#434343;}
+#filtrar{width:286px; margin-top:4px;}
+#filtrar .ver-todos{ background:url(/imagenes/sitio/ver-mas.png) left -54px no-repeat;width:86px; font-size:1.1em;}
+#filtrar .ver-todos a,#filtrar .ver-todos a:visited{width:86px;}
+#filtrar .ver-todos a:hover{background: url(/imagenes/sitio/ver-mas.png) left -81px no-repeat;}
+#filtrar select{ width:150px;}
+.text-equipo{ margin:0; padding:24px 0 15px;}
+.text-equipo img{ vertical-align:middle; margin:-24px 20px 0 0;}
+.pdf{ background:url(/imagenes/documentos/icon-pdf.gif) left center no-repeat; padding-left:22px; margin-left:5px;}
+.doc{ background:url(/imagenes/documentos/icon-word.gif) left center no-repeat; padding-left:22px; margin-left:5px;}
+.docx{ background:url(/imagenes/documentos/icon-word.gif) left center no-repeat; padding-left:22px; margin-left:5px;}
+.xls{ background:url(/imagenes/documentos/icon-excel.gif) left center no-repeat; padding-left:22px; margin-left:5px;}
+.xlsx{ background:url(/imagenes/documentos/icon-excel.gif) left center no-repeat; padding-left:22px; margin-left:5px;}
+.LikeFacebook{
+	width: 230px;
+	float: right;
+	margin: 30px 0 0 0;
+	background:#FFF;
+	border-radius: 4px;
+}
+
+
+
+#suspendidos_contenedor,#destacados_contenedor{
+	height:230px;
+}
+.styled-v-bar{ /* sample CSS class for a different vertical scrollbar look */
+	background:	url(/js/jquery/facescroll/custom-scroll-bar.png) center top no-repeat;
+	width: 10px;
+	margin-right: 0;
+	margin-bottom: 4px;
+}
+
+.styled-v-bar ins{ /* Style for the "ins" inner element, or bottom of the scrollbar */ 
+	display: block;
+	background:	url(/js/jquery/facescroll/custom-scroll-bar.png) center bottom no-repeat;
+	width: 10px;
+	height: 4px;
+	position: absolute;
+	top: 100%;
+}
+
+/*Reserva*/
+ #Reserva {
+                display: block !important;
+                font-family: Arial !important;
+                height: 486px !important;
+                width: 577px !important;
+            }
+            #PestaniasContenido {
+                background: none repeat scroll 0 0 #ECECEC !important;
+                border: 1px solid #339900 !important;
+                clear: both !important;
+                display: block !important;
+                height: auto !important;
+                overflow: auto !important;
+                padding: 10px !important;
+                width: 567px !important;
+				font-size: 10px !important;
+            }
+            .dib {
+                display: inline-block !important;
+            }
+            .db {
+                display: block !important;
+            }
+            .fl {
+                float: left !important;
+            }
+            .ft {
+                float: right !important;
+            }
+            #Pestanias ul {
+                list-style: none outside none !important;
+                margin: 0 !important;
+                overflow: hidden !important;
+                padding: 3px 0 0 !important;
+            }
+            .tr {
+                text-align: right !important;
+            }
+            #Pestanias ul li {
+				-moz-border-bottom-colors: none;
+				-moz-border-left-colors: none;
+				-moz-border-right-colors: none;
+				-moz-border-top-colors: none;
+				background: none repeat scroll 0 0 #ECECEC;
+				border-color: #ECECEC #ECECEC transparent;
+				border-image: none;
+				border-style: solid solid none;
+				border-width: 1px;
+				color: #CCCCCC;
+				display: inline-block;
+				float: left;
+				font-size: 12px;
+				height: 26px;
+				list-style: none outside none;
+				margin: -1px 10px 0 0;
+				padding: 10px;
+				width: 96px;
+}
+#Pestanias ul li b {
+    display: inline-block !important;
+    float: left;
+    font-size: 24px;
+    margin-right: 10px;
+}
+#Pestanias ul li p {
+    display: inline-block !important;
+    float: left;
+    font-size: 12px;
+    margin-top: 0;
+    width: 70px;
+}
+#Pestanias ul li.activa {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #339900 #339900 #ffffff;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #339900;
+}
+#Pestanias {
+    clear: both;
+    display: block;
+    height: 49px;
+    margin: 0;
+    padding: 0;
+}
+            .titulo {
+                background: none repeat scroll 0 0 #00998c !important;
+                color: #fff !important;
+                font-size: 13px !important;
+                padding: 3px !important;
+            }
+            .tiporeserva {
+				margin-top: 40px;
+                display: inline-block !important;
+                font-size: 11px !important;
+            }
+            .divtiporeserva {
+                border: 1px solid #ffffff !important;
+                display: inline-block !important;
+                height: 18px !important;
+                width: 22px !important;
+            }
+            .tiporeserva p {
+                display: inline-block !important;
+            }
+            .reservado {
+                background: none repeat scroll 0 0 #CC0000 !important;
+            }
+            .prereserva {
+                background: none repeat scroll 0 0 #FFCC00 !important;
+            }
+            .disponible {
+                background: none repeat scroll 0 0 #FFFFFF !important;
+            }
+            .txtprereserva {
+                color: #FF8800 !important;
+				font-size: 13px !important;
+            }
+            .txtcdisponible {
+                color: #339900 !important;
+				font-size: 13px !important;
+            }
+            .txtreservado {
+                color: #CC0000 !important;
+				font-size: 13px !important;
+            }
+            table.reserva {
+                background: none repeat scroll 0 0 #fff !important;
+                border: 1px solid #00998c !important;
+                border-collapse: collapse !important;
+                width: 215px !important;
+				color: #fff !important;
+            }
+            table.reserva .tituloTR {
+                background: none repeat scroll 0 0 #ECECEC !important;
+                border: 1px solid #ECECEC !important;
+                color: #00998c !important;
+                font-size: 11px !important;
+            }
+            table.reserva .trBloques {
+                background: none repeat scroll 0 0 #99CC66 !important;
+                color: white !important;
+                font-weight: normal !important;
+                text-transform: uppercase !important;
+            }
+            #pestania1-contenido .btn {
+				margin-top: 10px;
+                margin-left: 200px;
+            }
+            #tablacalendario {
+                margin-left: 10px !important;
+				font-size: 11px !important;
+            }
+            table.reserva tbody {
+                color: #00998c !important;
+				font-size: 11px !important;
+            }
+            table.reserva tbody td {
+                border: 1px solid #dfdfdf !important;
+				color: #00998c;
+                font-weight: bold !important;
+                text-align: center;
+				font-size: 12px !important;
+            }
+            .pestaniacontenido {
+                display: none;
+            }
+            .pestaniacontenidoactiva {
+                display: block !important;
+            }
+            p.titulo {
+                width: 794px !important;
+            }
+            #pestania2-contenido p {í 
+                font-size: 12px ;
+                width: 554px; /*Ancho botón*/
+                cursor: pointer !important;
+            }
+            .formularioreserva legend {
+                color: #538F0A !important;
+                font-size: 24px !important;
+            }
+            .formularioreserva legend i {
+                font-size: 12px !important;
+                font-style: normal !important;
+            }
+            .formularioreserva ul li {
+                list-style: none outside none !important;
+            }
+            .formularioreserva ul li label {
+                display: inline-block !important;
+                font-size: 12px !important;
+                width: 100px !important;
+            }
+            .formularioreserva ul li input {
+                margin: 0 !important;
+                padding: 0 ;/*Ancho botón*/
+                margin-bottom: 0px !important; /*Pablo*/
+                resize: none !important;
+                width: 220px !important;
+            }
+            .btn {
+				background: none repeat scroll 0 0 #339900 !important;
+				color: #fff !important;
+				padding: 10px !important;
+				text-align: center !important;
+				text-transform: uppercase !important;
+				width: 100px !important;
+				cursor: pointer !important;
+				
+			}
+			.btnenviar {
+				display: inline-block !important;
+			}
+            .formularioreserva ul li p {
+                display: inline-block !important;
+            }
+            .formularioreserva .btn {
+                border: medium none !important;
+                font-size: 12px !important;
+                width: 140px !important;
+            }
+            .formularioreserva .mini {
+                font-size: 10px !important;
+                margin-right: 80px;
+                width: 100px !important;
+            }
+            .formularioreserva ul {
+                list-style: none outside none !important;
+            }
+            .formularioreserva ul li textarea {
+                width: 388px !important;
+            }
+            .formularioreserva {
+                border: 1px solid #DCDCDC !important;
+                padding: 10px !important;
+                width: 530px !important;
+            }
+			.administrar{
+                font-family: Arial;
+                border: 1px solid #339900;
+                color: #fff;
+                padding: 8px;
+				text-decoration: none;
+				background-color: #339900;
+            }
+			
+            .administrar:hover{
+                background-color: #99cc66;
+            }
+.cb{
+    clear:both;
+    display: block;
+}
+#datacalendario {
+    width: 250px;
+    display: block;
+    clear: both;
+    border: 1px solid transparent;
+}
+#dataexportar {
+}
+#dataexportarv input,#dataexportarc input {
+    border: 0px!important;
+    margin-left: 146px!important;
+    width: 150px!important;
+}
+#dataexportar b {
+    text-transform: uppercase;
+}
+#dataexportar td {
+    color: #339900;
+    font-weight: bold;
+}
+.pestaniacontenido .titulo{
+    text-transform: uppercase;
+}
+#dataexportarc input {
+    margin-left:10px!important;
+}
+
+#dataexportarc input:first-child {    margin-left: 234px !important;
+}
+
+.CSSTableGenerator {
+	margin:0px;padding:0px;
+	border:1px solid #339900;
+	
+	-moz-border-radius-bottomleft:8px;
+	-webkit-border-bottom-left-radius:8px;
+	border-bottom-left-radius:8px;
+	
+	-moz-border-radius-bottomright:8px;
+	-webkit-border-bottom-right-radius:8px;
+	border-bottom-right-radius:8px;
+	
+	-moz-border-radius-topright:8px;
+	-webkit-border-top-right-radius:8px;
+	border-top-right-radius:8px;
+	
+	-moz-border-radius-topleft:8px;
+	-webkit-border-top-left-radius:8px;
+	border-top-left-radius:8px;
+}.CSSTableGenerator table{
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:8px;
+	-webkit-border-bottom-right-radius:8px;
+	border-bottom-right-radius:8px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft:8px;
+	-webkit-border-top-left-radius:8px;
+	border-top-left-radius:8px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright:8px;
+	-webkit-border-top-right-radius:8px;
+	border-top-right-radius:8px;
+}.CSSTableGenerator tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:8px;
+	-webkit-border-bottom-left-radius:8px;
+	border-bottom-left-radius:8px;
+}.CSSTableGenerator tr:hover td{
+	
+}
+.CSSTableGenerator tr:nth-child(odd){ background-color:#d4ffaa; }
+.CSSTableGenerator tr:nth-child(even)    { background-color:#ebffd8; }.CSSTableGenerator td{
+	vertical-align:middle;
+	border:1px solid #339900;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:12px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+	background-color:#99cc66;
+	border:0px solid #339900;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	
+	background-color:#99cc66;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
